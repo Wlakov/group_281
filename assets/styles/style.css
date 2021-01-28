@@ -1,3 +1,12 @@
+body{
+    text-align: center;
+}
+@font-face {
+    font-family:"Virus_01";
+    src: url('/assets/fonts/Virus_01.ttf');
+    font-style: normal;
+}
+
 #bubl{
   
     font-family: 'Creepster', cursive;
@@ -33,3 +42,6 @@
      font-family: Consolas, "Book Antiqua";
      color: indigo;
  }
+#kasyan_demir{
+    font-family: Virus_01;
+}
