@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="css/main.css">
+    <title>Register</title>
+</head>
+<body>
+<header>
+    <div>
+        <h1>Мій особистий блог</h1>
+        <h4>Коваленко Владислав</h4>
+    </div>
+    <div class="kv">
+        <img src="img/kv.jfif" alt="photo" width="93">
+    </div>
+    <div class="auto">
+        <a href="login.html" class="auto">Вхід</a>
+        <a href="register.html" class="auto">Реєстрація</a>
+    </div>
+</header>
+<div class="blok">
+    <div class="reg">
+        <p>Реєстрація користувача</p>
+    </div>
+        <div>
+            <label for="surname"><b>Прізвище</b></label>
+            <input type="text" placeholder="Введіть прізвище" name="suname" required>
+
+            <label for="name"><b>Ім'я</b></label>
+            <input type="text" placeholder="Введіть ім'я" name="name" required>
+
+            <label for="login"><b>Логін</b></label>
+            <input type="text" placeholder="Введіть логін" name="login" required>
+
+
+            <label for="psw"><b>Пароль</b></label>
+            <input type="password" placeholder="Введіть пароль" name="psw" required>
+
+            <label for="psw"><b> Підтвердіть Пароль</b></label>
+            <input type="password" placeholder="Підтвердіть пароль" name="psw" required>
+
+            <label><b>Навчальна група</b></label>
+            <select id="selectID" >
+
+                <option value=”281”>281</option>
+
+                <option value=”282”>282</option>
+
+                <option value=”283”>283</option>
+
+            </select>
+            <button type="submit">Ввійти</button>
+        </div>
+
+        <div class="container" style="background-color:#f1f1f1">
+            <button type="button" class="cancelbtn">Відміна</button>
+            <span class="psw">Забув <a href="#">пароль?</a></span>
+        </div>
+</div>
+</body>
+</html>
